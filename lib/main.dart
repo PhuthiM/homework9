@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:homework9/pages/gamepage/GamePage.dart';
+
+import 'package:homework9/pages/gamepage/guessnumber.dart';
 
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: GamePage(),
+      home: guessnumber(),
     );
   }
 }
