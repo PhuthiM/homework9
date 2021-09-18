@@ -19,7 +19,7 @@ class _GamePageState extends State<guessnumber> {
   bool showNewgame = false;
   int start = 0;
   int icon = 0;
-  int text = 0;
+  int? text = 0;
 
   /* String title = 'Error';
   String msg = 'Please enter the number.';
